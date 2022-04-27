@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-family: 'Antonio', sans-serif;
+}
+body{
+    background-size: cover;
+    background-color: rgb(47, 47, 47);
+    min-height: 100vh;
+    position:sticky;
+    padding-bottom: 80px;
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 3px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.info {
+    background: rgba(0, 0, 0, 0.75);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.col-1 {width: 66.66%;}
+
+
+
+
+
+.aboutMenu li:hover::before {
+    width: 100%;
+    background-color: rgba(255, 221, 0, 0.32);
+}
+.textsField {
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    color: #f1f1f1;
+    padding: 10px 10px 10px 100px;
+    font-size: larger;
+    box-sizing: inherit;
+    max-height: 1035px;
+    overflow: inherit;
+    margin-top: 10px;
+}
+
+
+
