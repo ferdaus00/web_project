@@ -5,35 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Team Cards</title>
     <link rel="stylesheet" href="about.css">
+    <link href="lightbox.css" rel="stylesheet" />
+    <script src="lightbox-plus-jquery.js"></script>
+    <link href="lightbox-2-11-1/src/css/lightbox.css" rel="stylesheet" />
+    <script src="lightbox-2-11-1/src/js/lightbox.js"></script>
 </head>
 <body>
-    
+    <section id="about">
+        <div class="about-1">
+            <h1>ABOUT US</h1>
+            <P> We are information and communication engineering students at Metropolia and we designed the application together for a Web project.<br>
+                With our web application, you can check the weather information for all cities in the world.<br> Below is our information, we hope you
+                 enjoyed our app, if you have any questions, please send a message via the contact page.
+            </P>
+            </div>
+            <div class="Header"></div>
+    <ul class="button">
+    <button onclick="window.history.back()">Back</button>
+
     <div class="container">
         <div class="card">
             <div class="cardimg">
-                <img src="rati.jpg" alt="">
+                <img src="RatiTausta.jpeg" alt="">
+                <a class="lightbox-link" href="rati.jpg" data-lightbox="image-1" data-title="Ratiban Jeyaratnam"><img src="RatiTausta.jpeg" style="width:300px;"/></a>
             </div>
             <div class="cardbody">
                 <h2>Ratiban Jeyaratnam</h2>
-                
+
+
             </div>
         </div>
         <div class="card">
             <div class="cardimg">
-                <img src="ferdaus.jpg" alt="">
+                <img src="FerdiTausta.jpeg" alt="">
+                <a class="lightbox-link" href="FerdausH.jpeg" data-lightbox="image-1" data-title="Ferdaus Hashemi"><img src="FerdiTausta.jpeg"style="width:300px;"/></a>
             </div>
             <div class="cardbody">
                 <h2>Ferdaus Hasheimi</h2>
-                
+
             </div>
         </div>
         <div class="card">
             <div class="cardimg">
-                <img src="adnan.jpg" alt="">
+                <img src="AdnanTausta.jpeg" alt="">
+                <a class="lightbox-link" href="AdnanO.jpeg" data-lightbox="image-1" data-title="Adnan Osman"><img src="AdnanTausta.jpeg" style="width:300px;"/></a>
             </div>
             <div class="cardbody">
                 <h2>Adnan Osman</h2>
-               
+
             </div>
         </div>
     </div>

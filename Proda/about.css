@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #34568B;
-    background-image: url("us.bg.jpg")
+    background: black;
+    
 }
 
 .container {
@@ -91,6 +91,44 @@ body {
     transform: translate(-35px, 35px);
 }
 
+
+.about-1
+{
+
+ 
+-moz-box-align: center;
+box-sizing: border-box;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  border: 3px solid #ff3d00;
+  background-color: #171717;
+  color: #DAA520;
+  text-align: center;
+  font: arial;
+  border-bottom-left-radius: 100px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+overflow-wrap: break-word;
+
+ 
+}
+
+button
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #ff3d00;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
     .card:hover .cardimg {
